@@ -1,11 +1,11 @@
-* {
+html {
 	font-family: Helvetica;
 }
 
 h1 {
 	background-image: url("pattern.jpeg");
+	text-align: center;
 	font-size: 100px;
-	font-weight: bold;
 	color: khaki;
 }
 
@@ -14,22 +14,19 @@ h1 {
 	color: Blue;
 }
 
-#brush {
+.division h2 {
 	font-size: 32px;
-	font-weight: bold;
 	color: White;
+}
+
+#brush {
 	background-color: MediumSpringGreen;
 }
 
 #frames {
-	font-size: 32px;
-	font-weight: bold;
-	color: White;
 	background-color: LightCoral;
 }
+
 #paint {
-	font-size: 32px;
-	font-weight: bold;
-	color: White;
 	background-color: SkyBlue;
 }
